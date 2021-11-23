@@ -14,3 +14,8 @@ function sum(arr, n) {
         return sum(arr, n - 1) + arr[n - 1];
       }
   }
+
+  // Generate Random Fractions with JavaScript
+  function randomFraction() {
+    return Math.random();
+  }
