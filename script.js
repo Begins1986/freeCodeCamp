@@ -41,4 +41,18 @@ function sum(arr, n) {
     return parseInt(str, 2);
     }
     convertToInteger("10011");
+
+  // Use the Conditional (Ternary) Operator
+  function checkEqual(a, b) {
+    return a == b ? "Equal" : "Not Equal";
+  }
+  checkEqual(1, 2);
+
+// Use Multiple Conditional (Ternary) Operators
+function checkSign(num) {
+  return (num == 0) ? "zero" 
+  : (num > 0) ? "positive" : "negative";
+  }
+  checkSign(10);
+
     
