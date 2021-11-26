@@ -91,3 +91,15 @@ function freezeObj() {
   return MATH_CONSTANTS.PI;
 }
 const PI = freezeObj();
+
+// Use an Array to Store a Collection of Data
+let yourArray; 
+yourArray=[1, "2", true, false, "Hello"];
+
+// Add Items to an Array with push() and unshift()
+function mixedNumbers(arr) {
+  arr.unshift('I', 2, 'three');
+  arr.push(7, 'VIII', 9);
+    return arr;
+  }
+  console.log(mixedNumbers(['IV', 5, 'six']));
